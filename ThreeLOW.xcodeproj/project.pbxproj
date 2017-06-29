@@ -10,6 +10,7 @@
 		301D47DB1F0456D200F14082 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 301D47DA1F0456D200F14082 /* main.m */; };
 		301D47E31F045A9000F14082 /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = 301D47E21F045A9000F14082 /* Dice.m */; };
 		301D47E61F0462F600F14082 /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 301D47E51F0462F600F14082 /* InputHandler.m */; };
+		301D47E91F04927C00F14082 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 301D47E81F04927C00F14082 /* GameController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		301D47E21F045A9000F14082 /* Dice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dice.m; sourceTree = "<group>"; };
 		301D47E41F0462F600F14082 /* InputHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
 		301D47E51F0462F600F14082 /* InputHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
+		301D47E71F04927C00F14082 /* GameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		301D47E81F04927C00F14082 /* GameController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				301D47E21F045A9000F14082 /* Dice.m */,
 				301D47E41F0462F600F14082 /* InputHandler.h */,
 				301D47E51F0462F600F14082 /* InputHandler.m */,
+				301D47E71F04927C00F14082 /* GameController.h */,
+				301D47E81F04927C00F14082 /* GameController.m */,
 			);
 			path = ThreeLOW;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				301D47E31F045A9000F14082 /* Dice.m in Sources */,
+				301D47E91F04927C00F14082 /* GameController.m in Sources */,
 				301D47E61F0462F600F14082 /* InputHandler.m in Sources */,
 				301D47DB1F0456D200F14082 /* main.m in Sources */,
 			);
